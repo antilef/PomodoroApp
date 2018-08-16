@@ -6,6 +6,6 @@ Simple application for controller your productivity
 2. npm 
 ### Installation
 1. clone this repositorie
-2.` cd` pomodoro
+2. d` cd` pomodoro
 3. run `npm install` 
 4. run `npm start` 
