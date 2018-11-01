@@ -1,14 +1,14 @@
 {
   "name": "pomodoro",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Pomodoro app desktop",
   "main": "app.js",
   "scripts": {
     "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=assets/icons/mac/icon.icns --prune=true --out=release-builds",
-  "package-win": "electron-packager . pomodoro --overwrite --asar=true --platform=win32 --arch=ia32 --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Electron Tutorial App\"",    
-  "package-linux": "electron-packager . pomodoro --overwrite --asar=true --platform=linux --arch=x64 --prune=true --out=release-builds"
+    "package-win": "electron-packager . pomodoro --overwrite --asar=true --platform=win32 --arch=ia32 --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Electron Tutorial App\"",
+    "package-linux": "electron-packager . pomodoro --overwrite --asar=true --platform=linux --arch=x64 --prune=true --out=release-builds"
   },
   "author": "Francisco Antilef",
   "license": "MIT",

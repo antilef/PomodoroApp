@@ -1,11 +1,15 @@
-# Pomodoro App for linux 
-Simple application for controller your productivity
+# Pomodoro App for Linux/Mac/Windows
 
-## Requisites
-1. nodejs
-2. npm 
+Simple application to watch your productivity
+
+## Requirements
+
+- nodejs
+- npm 
+
 ### Installation
-1. clone this repositorie
+
+1. Clone the repo
 2. ` cd` pomodoro
-3. run `npm install` 
-4. run `npm start` 
+3. `npm install` 
+4. `npm start` 
